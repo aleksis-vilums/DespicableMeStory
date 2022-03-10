@@ -25,6 +25,10 @@
 }
 
 .cheeseArrow{
-	width: 25%;
-	transform : rotate(180deg);
+    width: 25%;
+    transform : rotate(180deg);
+}
+
+.cheeseArrow:hover {
+    cursor: pointer;
 }
