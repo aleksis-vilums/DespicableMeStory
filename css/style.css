@@ -13,7 +13,8 @@ html {
 .second_container{
 	background-image: url("stealMoon.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100vh;
+        background-position: center;
 	margin: 0px;
 	height: 100%;
 }
@@ -21,21 +22,24 @@ html {
 .third_container{
 	background-image: url("vector.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100vh;
+        background-position: center;
 	margin: 0px;
 }
 
 .fourth_container{
 	background-image: url("gruMoon.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100vh;
+        background-position: center;
 	margin: 0px;
 }
 
 .fifth_container{
 	background-image: url("princessGru.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100vh;
+        background-position: center;
 	margin: 0px;
 }
 
@@ -65,4 +69,10 @@ html {
 
 .cheeseArrow:hover {
     cursor: pointer;
+    filter: brightness(3);
+}
+
+.highlight {
+    color: white;
+    font-weight: bold;
 }
