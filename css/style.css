@@ -18,6 +18,27 @@ html {
 	height: 100%;
 }
 
+.third_container{
+	background-image: url("vector.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+}
+
+.fourth_container{
+	background-image: url("gruMoon.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+}
+
+.fifth_container{
+	background-image: url("princessGru.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+}
+
 .glow{
 	font-size: 70px;
 	color: yellow;
